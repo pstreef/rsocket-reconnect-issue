@@ -1,6 +1,6 @@
 # RSocket reconnect issue
 
-In rsocket-core 1.1.4 there is a change (likely [this one](http://bla.com)) which causes 
+In rsocket-core 1.1.4 there is a change (likely [this one](https://github.com/rsocket/rsocket-java/pull/1085)) which causes 
 different behavior when connection issues occur. 
 
 `NoKeepAliveAckReconnectTest.java` demonstrates this behaviour working as expected when using
